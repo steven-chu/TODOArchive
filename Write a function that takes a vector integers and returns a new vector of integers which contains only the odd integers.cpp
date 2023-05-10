@@ -19,7 +19,7 @@ int main()
   vector<int> currentVector = {4,2,3,7,1,6,10,13,12}; // Example vector
   cout << "The current vector contains: " << endl;
   for (int i = 0; i < currentVector.size(); i++) { // To go through the vector.
-  cout << currentVector[i] << " "; // Print out the contents in the current vector.
+    cout << currentVector[i] << " "; // Print out the contents in the current vector.
   }
   cout << "\n"; // New line print to apply more space.
   vector<int> oddNumbers = oddNumberChecker(currentVector); // New vector to apply the called function.
