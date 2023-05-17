@@ -41,7 +41,7 @@ bool isPerm(const vector<int>& V)
 int main()
 {
  vector<int> test = {1,0,3,2};
-  isperm(test);
+  isPerm(test);
   return 0;
 }
 
