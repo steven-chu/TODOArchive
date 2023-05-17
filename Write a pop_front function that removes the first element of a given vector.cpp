@@ -5,9 +5,7 @@ using namespace std;
 void pop_front(vector<int> v)
 {
   if (!v.empty)
-  {
     v.erase(v.begin());
-  }
 } 
 
 int main()
