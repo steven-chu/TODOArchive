@@ -14,7 +14,7 @@ double pow(double x, int n)
     return 1;
     // when n is even
   } else if (n % 2 == 0) {
-    double temp = pow(x, n/2) // recursive function to divide power in half
+    double temp = pow(x, n/2); // recursive function to divide power in half
     return temp*temp; // square the result and return
   } else {
     // when n is odd
