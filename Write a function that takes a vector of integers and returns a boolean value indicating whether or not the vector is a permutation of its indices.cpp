@@ -18,7 +18,7 @@
 #include <vector> 
 using namespace std;
 
-bool isperm(const vector<int>& V) 
+bool isPerm(const vector<int>& V) 
 {
   if(V.empty()) { // Base case, if a vector given is empty, return 0. 
     cout << "Empty Vector. 0" << endl;
